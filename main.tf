@@ -1,9 +1,9 @@
 provider "aws" {
-  region  = "us-east-2"
+  region  = "us-east-1"
   profile = "source"
 
   assume_role {
-    role_arn = "<ROLE_ARN>"
+    role_arn = "ROLE_ARN"
   }
 }
 
